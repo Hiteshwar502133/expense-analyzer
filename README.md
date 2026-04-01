@@ -1,21 +1,41 @@
-# Smart Expense Analyzer with AI Insights
+# 💰 Smart Expense Analyzer with AI Insights
 
-A Django REST API that tracks expenses, categorizes them, and gives smart financial insights.
+A powerful Django REST API that tracks expenses, automatically categorizes them, and provides intelligent financial insights.
 
-## Features
+---
+
+## 🚀 Features
+
+- 🔐 JWT Authentication
+- 💸 Expense Tracking (CRUD APIs)
+- 🤖 AI-based Category Detection
+- 📊 Spending Analytics
+- 🧠 Smart Insights & Suggestions
+
+---
+
+## 🛠 Tech Stack
+
+- Python
+- Django
+- Django REST Framework
 - JWT Authentication
-- Expense Tracking (CRUD)
-- Auto Category Detection
-- Analytics (Spending insights)
-- AI Suggestions
 
-## API Endpoints
-- /api/login/
-- /api/expenses/
-- /api/analytics/
-- /api/insights/
+---
 
-## Run Project
+## 📡 API Endpoints
 
-pip install -r requirements.txt  
+| Endpoint | Description |
+|--------|------------|
+| /api/login/ | Get JWT token |
+| /api/expenses/ | Manage expenses |
+| /api/analytics/ | Expense breakdown |
+| /api/insights/ | AI insights |
+
+---
+
+## ▶️ Run Locally
+
+```bash
+pip install -r requirements.txt
 python manage.py runserver
