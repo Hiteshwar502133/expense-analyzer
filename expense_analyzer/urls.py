@@ -10,7 +10,6 @@ schema_view = get_schema_view(
     openapi.Info(
         title="Expense Analyzer API",
         default_version='v1',
-        description="API for tracking expenses and generating AI insights",
     ),
     public=True,
     permission_classes=(permissions.AllowAny,),
