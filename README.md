@@ -56,6 +56,23 @@ https://expense-analyzer-n1mc.onrender.com/
 
 ---
 
+## 🔐 Authentication
+
+Use Bearer Token:
+
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc1MDI4NTMzLCJpYXQiOjE3NzUwMjQ5MzMsImp0aSI6Ijc0Y2I0M2ZlOGQ3MTQwMDZhOGUyYzQ5MTllYjQwYzcxIiwidXNlcl9pZCI6IjEifQ.6IUrk4eOs_z2azDGYD8Ig86Q4LGYrxkbcrr1gjITY5E
+
+---
+
+POST /api/login/
+
+{
+  "username": "Hitesh",
+  "password": "1234"
+}
+
+---
+
 ## ▶️ Run Locally
 
 ```bash
