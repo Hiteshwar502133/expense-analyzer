@@ -44,6 +44,18 @@ A powerful Django REST API that tracks expenses, automatically categorizes them,
 
 ---
 
+## 🌐 Live API
+
+Base URL:
+https://expense-analyzer-n1mc.onrender.com/
+
+### Endpoints
+- /api/login/
+- /api/expenses/
+- /api/insights/
+
+---
+
 ## ▶️ Run Locally
 
 ```bash
