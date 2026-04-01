@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'analytics',
     'ai_insights',
     'api',
+    'drf_yasg',
 ]
 
 MIDDLEWARE = [
