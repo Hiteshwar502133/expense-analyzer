@@ -122,7 +122,9 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
 
+import os
 STATIC_URL = 'static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 from datetime import timedelta
 
@@ -135,4 +137,13 @@ REST_FRAMEWORK = {
 SIMPLE_JWT = {
     'ACCESS_TOKEN_LIFETIME': timedelta(minutes=60),
     'AUTH_HEADER_TYPES': ('Bearer',),
+}
+
+import dj_database_url
+import os
+
+ALLOWED_HOSTS = ['*']
+
+DATABASES = {
+    'default': dj_database_url.config(default='sqlite:///db.sqlite3')
 }
