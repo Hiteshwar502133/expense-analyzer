@@ -14,6 +14,16 @@ A powerful Django REST API that tracks expenses, automatically categorizes them,
 
 ---
 
+## 📸 Demo
+
+### Expenses API
+![Expenses](expenses-api.png)
+
+### Insights API
+![Insights](insights-api.png)
+
+---
+
 ## 🛠 Tech Stack
 
 - Python
@@ -33,9 +43,6 @@ A powerful Django REST API that tracks expenses, automatically categorizes them,
 | /api/insights/ | AI insights |
 
 ---
-
-![image alt](https://github.com/Hiteshwar502133/expense-analyzer/blob/33004c67f5b9747b80b14ab75bafb0407697520d/expenses-api.png)
-
 
 ## ▶️ Run Locally
 
